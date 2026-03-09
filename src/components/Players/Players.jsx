@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import AvailablePlayers from "./AvailablePlayers/AvailablePlayers";
 import SelectedPlayers from "./SelectedPlayers/SelectedPlayers";
+import { PlayersContext } from "../PlayersContext";
 
-const Players = ({ playersPromise, handleChoosePlayer, selectPlayer, isDisabled }) => {
+const Players = () => {
+    const { selectPlayer } = useContext(PlayersContext)
     const [allPlayers, setAllPlayers] = useState(true)
     return (
         <div className="max-w-300 mx-auto ">
@@ -18,7 +20,7 @@ const Players = ({ playersPromise, handleChoosePlayer, selectPlayer, isDisabled 
 
 
             {
-                allPlayers ? <AvailablePlayers playersPromise={playersPromise} handleChoosePlayer={handleChoosePlayer} selectPlayer={selectPlayer} isDisabled={isDisabled} /> : <SelectedPlayers selectPlayer={selectPlayer} />
+                allPlayers ? <AvailablePlayers /> : <SelectedPlayers />
             }
         </div>
     );

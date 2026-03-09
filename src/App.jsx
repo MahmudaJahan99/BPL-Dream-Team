@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
 import Players from './components/Players/Players'
+import { PlayersContext } from './components/PlayersContext'
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json")
@@ -24,13 +25,12 @@ function App() {
     <>
       <Navbar balance={balance} />
       <Banner />
-      <Suspense fallback={<span className="loading loading-dots loading-lg"></span>}>
-        <Players
-          playersPromise={playersPromise}
-          handleChoosePlayer={handleChoosePlayer}
-          selectPlayer={selectPlayer}
-        />
-      </Suspense>
+
+      <PlayersContext.Provider value={{ playersPromise, handleChoosePlayer, selectPlayer }}>
+        <Suspense fallback={<span className="loading loading-dots loading-lg"></span>}>
+          <Players />
+        </Suspense>
+      </PlayersContext.Provider>
     </>
   )
 }

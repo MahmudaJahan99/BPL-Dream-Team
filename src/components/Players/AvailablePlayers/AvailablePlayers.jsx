@@ -1,7 +1,10 @@
-import { use } from "react";
+import { use, useContext } from "react";
+import { PlayersContext } from "../../PlayersContext";
 
-const AvailablePlayers = ({ playersPromise, handleChoosePlayer, selectPlayer }) => {
+const AvailablePlayers = () => {
+    const {playersPromise, handleChoosePlayer, selectPlayer} = useContext(PlayersContext)
     const playersData = use(playersPromise)
+    
 
     return (
         <div className="grid md:grid-cols-3 gap-5">

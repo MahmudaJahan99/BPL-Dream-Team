@@ -1,10 +1,13 @@
-const SelectedPlayers = ({selectPlayer}) => {
-        console.log(selectPlayer)
+import { useContext } from "react";
+import { PlayersContext } from "../../PlayersContext";
+
+const SelectedPlayers = () => {
+    const { selectPlayer } = useContext(PlayersContext)
 
     return (
         <div>
-            {selectPlayer ? <p>{selectPlayer.playerName}</p>: "No Selected Players"}
-            
+            {selectPlayer.length ? <p>{selectPlayer.length}</p> : "No Selected Players"}
+
         </div>
     );
 };
