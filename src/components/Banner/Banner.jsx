@@ -12,8 +12,8 @@ const Banner = ({ freeCoins, handleFreeCoins }) => {
                 <div className="border p-2 border-white rounded-2xl">
                     <button onClick={() => handleFreeCoins()}
                         disabled={freeCoins}
-                        className="banner-btn ">
-                        {freeCoins ? "Claimed Coins" : "Claim Free Credit"}
+                        className={`banner-btn ${freeCoins ? "cursor-not-allowed" : "cursor-pointer"}`}>
+                        {freeCoins ? "Claimed" : "Claim Free Credit"}
                     </button>
                 </div>
             </div>
