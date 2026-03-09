@@ -1,0 +1,222 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 92,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 120000,
+    "playerImg": "https://i.ibb.co.com/My6tkxgN/Shakib-Al-Hasan.jpgz"
+  },
+  {
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 89,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 110000,
+    "playerImg": "https://i.ibb.co.com/S1sTPgR/Tamim-Iqbal.jpg"
+  },
+  {
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playerType": "Wicket-Keeper Batsman",
+    "rating": 87,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Non-bowler",
+    "price": 105000,
+    "playerImg": "https://i.ibb.co.com/dJ1vSGSs/Mushfiqur-Rahim.jpg"
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "rating": 88,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 115000,
+    "playerImg": "https://i.ibb.co.com/C5QKQMFM/Mustafizur-Rahman.jpg"
+  },
+  {
+    "playerName": "Mahmudullah Riyad",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 84,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 95000,
+    "playerImg": "https://i.ibb.co.com/zTDnhPYN/Mahmudullah-Riyad.jpg"
+  },
+  {
+    "playerName": "Liton Das",
+    "playerCountry": "Bangladesh",
+    "playerType": "Wicket-Keeper Batsman",
+    "rating": 85,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Non-bowler",
+    "price": 98000,
+    "playerImg": "https://i.ibb.co.com/S7r3PFbP/Liton-Kumar-Das.jpg"
+  },
+  {
+    "playerName": "Towhid Hridoy",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 80,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 80000,
+    "playerImg": "https://i.ibb.co.com/LhPJjrNg/Towhid-Hridoy.jpg"
+  },
+  {
+    "playerName": "Taskin Ahmed",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "rating": 83,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 90000,
+    "playerImg": "https://i.ibb.co.com/60L6rN7B/Taskin-Ahmed.jpg"
+  },
+  {
+    "playerName": "Mehedi Hasan Miraz",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 82,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 88000,
+    "playerImg": "https://i.ibb.co.com/vCw7xRhH/Mehedi-Hasan-Miraz.jpg"
+  },
+  {
+    "playerName": "Tanzid Hasan Tamim",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 78,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Non-bowler",
+    "price": 72000,
+    "playerImg": "https://i.ibb.co.com/67bKrqJ6/Tanzid-Hasan-Tamim.jpg"
+  },
+  {
+    "playerName": "Afif Hossain",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 79,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 75000,
+    "playerImg": "https://i.ibb.co.com/n8zsm8dF/Afif-Hossain.jpg"
+  },
+  {
+    "playerName": "Rishad Hossain",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "rating": 77,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg-break",
+    "price": 70000,
+    "playerImg": "https://i.ibb.co.com/Q3Nbywtd/Rishad-Hossain.jpg"
+  },
+  {
+    "playerName": "Alex Hales",
+    "playerCountry": "England",
+    "playerType": "Batsman",
+    "rating": 86,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 130000,
+    "playerImg": "https://i.ibb.co.com/5h3tf3fJ/Alex-Hales.jpg"
+  },
+  {
+    "playerName": "Moeen Ali",
+    "playerCountry": "England",
+    "playerType": "All-Rounder",
+    "rating": 85,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 125000,
+    "playerImg": "https://i.ibb.co.com/HTQFcfJg/Moeen-Ali.jpg"
+  },
+  {
+    "playerName": "Dawid Malan",
+    "playerCountry": "England",
+    "playerType": "Batsman",
+    "rating": 84,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg-break",
+    "price": 118000,
+    "playerImg": "https://i.ibb.co.com/Pvt300jH/Dawid-Malan.jpg"
+  },
+  {
+    "playerName": "Kyle Mayers",
+    "playerCountry": "West Indies",
+    "playerType": "All-Rounder",
+    "rating": 83,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 112000,
+    "playerImg": "https://i.ibb.co.com/4ZV7czmH/Kyle-Mayers.jpg"
+  },
+  {
+    "playerName": "Iftikhar Ahmed",
+    "playerCountry": "Pakistan",
+    "playerType": "All-Rounder",
+    "rating": 81,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 95000,
+    "playerImg": "https://i.ibb.co.com/h1gGg0Xt/Iftikhar-Ahmed.jpg"
+  },
+  {
+    "playerName": "Khushdil Shah",
+    "playerCountry": "Pakistan",
+    "playerType": "All-Rounder",
+    "rating": 80,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "price": 90000,
+    "playerImg": "https://i.ibb.co.com/LD01h0XZ/Khushdil-Shah.jpg"
+  },
+  {
+    "playerName": "Mohammad Nawaz",
+    "playerCountry": "Pakistan",
+    "playerType": "All-Rounder",
+    "rating": 82,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "price": 100000,
+    "playerImg": "https://i.ibb.co.com/ymvqcgL2/Mohammad-Nawaz.jpg"
+  },
+  {
+    "playerName": "Faheem Ashraf",
+    "playerCountry": "Pakistan",
+    "playerType": "All-Rounder",
+    "rating": 81,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 95000,
+    "playerImg": "https://i.ibb.co.com/m5Qh2h4v/Faheem-Ashraf.jpg"
+  },
+  {
+    "playerName": "Pathum Nissanka",
+    "playerCountry": "Sri Lanka",
+    "playerType": "Batsman",
+    "rating": 83,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 105000,
+    "playerImg": "https://i.ibb.co.com/wNFVqnkf/Angelo-Mathews.jpg"
+  },
+  {
+    "playerName": "Angelo Mathews",
+    "playerCountry": "Sri Lanka",
+    "playerType": "All-Rounder",
+    "rating": 84,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "price": 110000,
+    "playerImg": "https://i.ibb.co.com/0jJwKQZR/Pathum-Nissanka.jpg"
+  }
+]
