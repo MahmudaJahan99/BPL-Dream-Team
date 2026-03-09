@@ -19,8 +19,8 @@ A React-based fantasy cricket web app where users can browse BPL Players, build 
 - Global state managed with React Context API
 
 ### Tech Stack
-
 | Technology | Purpose |
+|----------|----------|
 | React 19 | UI library |
 | Vite | Build tool & dev server |
 | Tailwind CSS | Utility-first styling |
