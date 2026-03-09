@@ -13,7 +13,7 @@ const AvailablePlayers = () => {
                 // ✅ Per-player disabled check instead of a single global flag
                 const isSelected = selectPlayer?.some(p => p.playerName === player.playerName)
 
-                return <AvailablePlayersCard player={player} isSelected={isSelected} />
+                return <AvailablePlayersCard key={player.playerName} player={player} isSelected={isSelected} />
                 
             })}
         </div>

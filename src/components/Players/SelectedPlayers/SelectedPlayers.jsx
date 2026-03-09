@@ -1,13 +1,15 @@
 import { useContext } from "react";
 import { PlayersContext } from "../../PlayersContext";
+import SelectedPlayersCard from "../../ui/SelectedPlayersCard";
 
 const SelectedPlayers = () => {
     const { selectPlayer } = useContext(PlayersContext)
 
     return (
-        <div>
-            {selectPlayer.length ? <p>{selectPlayer.length}</p> : "No Selected Players"}
-
+        <div className="grid gap-5">
+            {selectPlayer.length ?
+                selectPlayer.map(player => <SelectedPlayersCard key={player.playerName} player={player} />)
+                : "No Selected Players"}
         </div>
     );
 };
