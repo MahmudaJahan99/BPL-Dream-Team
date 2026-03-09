@@ -16,12 +16,12 @@ function App() {
   const playersPromise = useMemo(() => fetchPlayers(), [])
 
   const [freeCoins, setFreeCoins] = useState(false)
-  const [balance, setBalance] = useState(600000)
+  const [balance, setBalance] = useState(1000000)
   const [selectPlayer, setSelectPlayer] = useState([])
 
   function handleFreeCoins() {
     if (!freeCoins) {
-      setBalance(prev => prev + 10000)
+      setBalance(prev => prev + 100000)
       setFreeCoins(true)
       toast.success('🎉 Free coins claimed!', {
         position: "top-center",
@@ -36,6 +36,21 @@ function App() {
   }
 
   function handleChoosePlayer(selectedData) {
+    if (selectPlayer.length === 13 || balance < selectedData.price) {
+      toast.error('Cannot buy player', {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        transition: Bounce,
+      });
+      return
+    }
+
     setSelectPlayer(prev => [...prev, selectedData])
     setBalance(prev => prev - selectedData.price)
     toast.success('Player Selected', {

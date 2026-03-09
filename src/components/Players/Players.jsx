@@ -10,7 +10,7 @@ const Players = () => {
         <div className="max-w-300 mx-auto ">
             <div className="flex justify-between">
                 <h2 className="text-2xl font-bold">
-                    {allPlayers ? "Available Players" : `Selected Players (${selectPlayer.length}/6)`}
+                    {allPlayers ? "Available Players" : `Selected Players (${selectPlayer.length}/13)`}
                 </h2>
                 <div className="join">
                     <button onClick={() => setAllPlayers(true)} className={`join-item border border-r-0 rounded-s-lg px-3 py-2 ${allPlayers && "bg-amber-300 font-semibold"}`}>Available</button>
