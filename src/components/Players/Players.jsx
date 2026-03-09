@@ -7,7 +7,7 @@ const Players = () => {
     const { selectPlayer } = useContext(PlayersContext)
     const [allPlayers, setAllPlayers] = useState(true)
     return (
-        <div className="max-w-300 mx-auto ">
+        <div className="max-w-300 mx-auto px-2">
             <div className="flex justify-between">
                 <h2 className="text-2xl font-bold">
                     {allPlayers ? "Available Players" : `Selected Players (${selectPlayer.length}/13)`}

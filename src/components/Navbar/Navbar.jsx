@@ -4,7 +4,7 @@ import coin from "../../assets/images/dollar_1.png"
 const Navbar = ({ balance }) => {
     return (
         <div>
-            <div className="navbar max-w-300 mx-auto flex justify-between">
+            <div className="navbar max-w-300 mx-auto flex justify-between px-2">
                 <div >
                     <img src={logo} alt="Logo" />
                 </div>
