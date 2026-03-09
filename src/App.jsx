@@ -6,6 +6,7 @@ import Players from './components/Players/Players'
 import { PlayersContext } from './components/PlayersContext'
 import Loader from './components/ui/Loader'
 import { toast, Bounce, ToastContainer } from 'react-toastify'
+import Footer from './components/Footer/Footer'
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json")
@@ -92,6 +93,8 @@ function App() {
         </main>
 
       </PlayersContext.Provider>
+
+      <Footer />
       <ToastContainer />
     </>
   )

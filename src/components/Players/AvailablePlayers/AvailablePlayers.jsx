@@ -8,7 +8,7 @@ const AvailablePlayers = () => {
     
 
     return (
-        <div className="grid md:grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {playersData.map(player => {
                 // ✅ Per-player disabled check instead of a single global flag
                 const isSelected = selectPlayer?.some(p => p.playerName === player.playerName)
