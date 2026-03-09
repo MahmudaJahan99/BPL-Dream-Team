@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { PlayersContext } from "../PlayersContext";
+
 const SelectedPlayersCard = ({ player }) => {
+    const {handleDeletePlayer} = useContext(PlayersContext)
+
     return (
         <div class="card card-side bg-base-100 shadow-sm flex justify-between items-center">
             <div className="flex gap-5 items-center">
@@ -14,7 +19,7 @@ const SelectedPlayersCard = ({ player }) => {
                 </div>
             </div>
             <div class="card-actions justify-end p-3">
-                <button class="text-red-500 text-2xl">
+                <button onClick={()=> handleDeletePlayer(player)} class="text-red-500 text-2xl">
                     <i class="fa-solid fa-trash"></i>
                 </button>
             </div>

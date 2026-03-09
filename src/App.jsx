@@ -21,12 +21,18 @@ function App() {
     setBalance(prev => prev - selectedData.price)
   }
 
+  function handleDeletePlayer (deletedData) {
+    const filteredData = selectPlayer.filter(player => player.playerName !== deletedData.playerName)
+    setSelectPlayer(filteredData)
+    setBalance(prev => prev + deletedData.price)
+  }
+
   return (
     <>
       <Navbar balance={balance} />
       <Banner />
 
-      <PlayersContext.Provider value={{ playersPromise, handleChoosePlayer, selectPlayer }}>
+      <PlayersContext.Provider value={{ playersPromise, handleChoosePlayer, selectPlayer, handleDeletePlayer }}>
         <Suspense fallback={<span className="loading loading-dots loading-lg"></span>}>
           <Players />
         </Suspense>
